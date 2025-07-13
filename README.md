@@ -35,38 +35,32 @@ The ultimate goal is to build a foundation for future **visual analytics dashboa
 
 ---
 
-## 🗂 Repository Structure
+## 📁 Repository Structure
 
----
+```text
 /procurement-data-engine/
-│
-├── README.md                        ← High-level overview of the project
-├── LICENSE                          ← MIT or other license (optional)
-│
+├── README.md
+├── LICENSE
 ├── docs/
-│   ├── 01_data-modeling/            ← Database design + normalization
-│   │   ├── 1.1_raw_schema.xlsx      ← Unnormalized sample Excel (POs, etc.)
+│   ├── 01_data-modeling/
+│   │   ├── 1.1_raw_schema.xlsx
 │   │   ├── 1.2_normalization_steps.md
 │   │   ├── 1.3_final_normalized_schema.md
-│   │   ├── 1.4_EER_diagram.png      ← Final ER diagram
+│   │   ├── 1.4_EER_diagram.png
 │   │   └── 1.5_table_descriptions.md
-│   │
-│   └── 02_etl-design/               ← ETL architecture and implementation
+│   └── 02_etl-design/
 │       ├── 2.1_s3_folder_structure.md
 │       ├── 2.2_etl_flow_diagram.png
 │       ├── 2.3_glue_script_sample.py
 │       ├── 2.4_rds_schema.sql
 │       └── 2.5_data_validation_rules.md
-│
 ├── schema/
-│   ├── ddl/                         ← Individual table DDL files
+│   ├── ddl/
 │   │   ├── clients.sql
 │   │   ├── service_requests.sql
 │   │   └── ...
-│   └── dbml/                        ← Source files for dbdiagram.io etc.
+│   └── dbml/
 │       └── schema.dbml
-
-
 
 ---
 
