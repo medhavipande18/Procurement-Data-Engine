@@ -63,6 +63,7 @@ The ultimate goal is to build a foundation for future **visual analytics dashboa
 │       └── schema.dbml
 
 ---
+```markdown
 
 ## 📖 Documentation Highlights
 
