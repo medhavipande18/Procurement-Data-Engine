@@ -37,6 +37,7 @@ The ultimate goal is to build a foundation for future **visual analytics dashboa
 
 ## 🗂 Repository Structure
 
+---
 /procurement-data-engine/
 │
 ├── README.md                        ← High-level overview of the project
