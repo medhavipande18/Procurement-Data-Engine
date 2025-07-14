@@ -61,8 +61,7 @@ The ultimate goal is to build a foundation for future **visual analytics dashboa
 │   │   └── ...
 │   └── dbml/
 │       └── schema.dbml
-
-
+---
 
 ## 📖 Documentation Highlights
 
