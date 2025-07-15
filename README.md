@@ -24,14 +24,14 @@ The ultimate goal is to build a foundation for future **visual analytics dashboa
 
 ## 🧱 Tech Stack
 
-| Layer       | Tools Used                                   |
-|-------------|-----------------------------------------------|
-| Data Storage | Amazon S3 (raw + cleansed zones)              |
-| Processing   | AWS Glue (PySpark-based transformation)       |
-| Database     | Amazon RDS (PostgreSQL)                       |
-| Analytics    | Amazon Athena, QuickSight (planned)           |
-| Modeling     | dbdiagram.io / MySQL Workbench (EER design)   |
-| Source Upload | Excel templates (user uploads)               |
+| Layer         | Tools Used                                     |
+|---------------|-------------------------------------------------|
+| Data Storage  | Amazon S3 (raw + cleansed zones)               |
+| Processing    | AWS Glue (PySpark-based transformation)        |
+| Database      | Amazon RDS (PostgreSQL)                        |
+| Analytics     | Amazon Athena, QuickSight (planned)            |
+| Modeling      | dbdiagram.io / MySQL Workbench (EER design)    |
+| Source Upload | Excel templates (user uploads)                 |
 
 ---
 
@@ -61,29 +61,3 @@ The ultimate goal is to build a foundation for future **visual analytics dashboa
 │   │   └── ...
 │   └── dbml/
 │       └── schema.dbml
----
-
-## 📖 Documentation Highlights
-
-- 📄 **1.2_normalization_steps.md** – Step-by-step breakdown of converting unstructured data into 1NF, 2NF, and 3NF  
-- 🗃️ **1.3_final_normalized_schema.md** – Fully normalized schema with header–detail structures  
-- 🧭 **1.4_EER_diagram.png** – Entity-relationship diagram reflecting final table design  
-- 🧪 **2.5_data_validation_rules.md** – Transformation and validation logic applied during ETL  
-- 🔁 **2.2_etl_flow_diagram.png** – Visual representation of S3 → Glue → RDS data flow
-
----
-
-## 🔭 Future Scope
-
-- 📊 Amazon QuickSight dashboards for spend analysis, vendor performance, and SLA tracking  
-- 🤖 AI chatbot integration (RAG-based) to answer contract, invoice, or service request questions  
-- 🌐 Optional UI/API layer for Excel uploads, validation, and trigger management
-
----
-
-## 🧑‍💻 Author
-
-**Medhavi**  
-Data Engineering & Analytics Enthusiast | Passionate about building scalable data platforms
-
----
